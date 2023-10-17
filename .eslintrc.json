@@ -14,6 +14,8 @@
     "prettier/prettier": [
       "warn",
       {
+        "bracketSpacing": false,
+        "endOfLine": "auto",
         "trailingComma": "es5",
         "semi": true,
         "tabWidth": 2,
