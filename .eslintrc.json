@@ -1,0 +1,25 @@
+{
+  "plugins": ["prettier"],
+  "extends": [
+    "next/core-web-vitals",
+    "standard",
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
+    "prettier"
+  ],
+  "rules": {
+    "react/react-in-jsx-scope": "off",
+    "arrow-body-style": "off",
+    "prefer-arrow-callback": "off",
+    "prettier/prettier": [
+      "warn",
+      {
+        "trailingComma": "es5",
+        "semi": true,
+        "tabWidth": 2,
+        "singleQuote": true,
+        "jsxSingleQuote": true
+      }
+    ]
+  }
+}
